@@ -35,7 +35,7 @@ import java.util.Scanner;
 public class Day_1_For_loop {
     public static void main(String[] args) {
         // Solving Problem 1
-        /*for (int i=1 ; i<=5 ; i++){
+        for (int i=1 ; i<=5 ; i++){
             for (int j=5 ; j>i ; j--){
                 System.out.print(" ");
 
@@ -44,9 +44,9 @@ public class Day_1_For_loop {
                 System.out.print(k);
             }
             System.out.println();
-        }*/
+        }
         // Solving Problem 2
-        /*for (int i=1 ; i<=5 ; i++) {
+        for (int i=1 ; i<=5 ; i++) {
             for (int j = 5; j > i; j--) {
                 System.out.print(" ");
                 }
@@ -57,9 +57,9 @@ public class Day_1_For_loop {
                 System.out.print(l);
                 }
            System.out.println();
-          }*/
+          }
         // Solving Problem 3
-        /*for (int i=1 ;i<=5 ; i++ ){
+        for (int i=1 ;i<=5 ; i++ ){
             for ( int j=1 ;j<=5 ;j++ ){
                 if ( i==1 || i==5 || j==1 || j==5){
                     System.out.print("*");
@@ -69,9 +69,9 @@ public class Day_1_For_loop {
                 }
             }
             System.out.println();
-        }*/
+        }
         //  Solving Problem 4
-        /*for (int i=1 ; i<= 5 ;i++){
+        for (int i=1 ; i<= 5 ;i++){
             for (int j =5 ; j > i ; j--){
                 System.out.print(" ");
             }
@@ -88,9 +88,9 @@ public class Day_1_For_loop {
                 System.out.print("*");
             }
             System.out.println();
-        }*/
+        }
         // Solving Problem 5
-        /*Scanner sc =new Scanner(System.in);
+        Scanner sc =new Scanner(System.in);
         int n;
         int f=1;
         System.out.println("Enter any number for finding factorial = ");
@@ -99,6 +99,6 @@ public class Day_1_For_loop {
             f = f*i;
         }
         System.out.println("Factorial of "+n+" is = "+ f);
-        f=1;*/
+        f=1;
     }
 }
