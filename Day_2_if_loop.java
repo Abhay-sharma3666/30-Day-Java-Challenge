@@ -30,7 +30,7 @@ import java.util.Scanner;
 public class Day_2_if_loop  {
     public static void main(String[] args) {
         // Solving Problem 1
-        /*Scanner sc =new Scanner(System.in);
+        Scanner sc =new Scanner(System.in);
         System.out.println("Enter any number = ");
         int n,sum=0,count=0;
         n=sc.nextInt();
@@ -51,9 +51,9 @@ public class Day_2_if_loop  {
         }
         else {
             System.out.println("Number "+ n + " is not a prime number.");
-        }*/
+        }
         //Solving Problem 2
-        /*Scanner sc1 = new Scanner(System.in);
+        Scanner sc1 = new Scanner(System.in);
         // take marks input from user
         System.out.print("Enter  Physics marks = ");
         double Physics = sc1.nextDouble();
@@ -93,7 +93,7 @@ public class Day_2_if_loop  {
         // Now display result
         System.out.println("Total Marks : " + totalmarks);
         System.out.println("Percentage : " + percentage + "%");
-        System.out.println("Grade : " + grade);*/
+        System.out.println("Grade : " + grade);
         // Solving Problem 3
         Scanner sc2 = new Scanner(System.in);
         int unit,bill;
